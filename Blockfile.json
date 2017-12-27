@@ -1,6 +1,5 @@
 {
-  "require": [
-  ],
+  "require": [],
   "versions": {
     "fabio": "fabiolb/fabio"
   }
