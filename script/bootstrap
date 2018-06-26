@@ -4,8 +4,8 @@ function bootstrap {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  local url_fabio_Darwin="https://github.com/fabiolb/fabio/releases/download/v${FABIO_VERSION}/fabio-${FABIO_VERSION}-go1.9.1-darwin_amd64"
-  local url_fabio_Linux="https://github.com/fabiolb/fabio/releases/download/v${FABIO_VERSION}/fabio-${FABIO_VERSION}-go1.9.1-linux_amd64"
+  local url_fabio_Darwin="https://github.com/fabiolb/fabio/releases/download/v${FABIO_VERSION}/fabio-${FABIO_VERSION}-go1.10.2-darwin_amd64"
+  local url_fabio_Linux="https://github.com/fabiolb/fabio/releases/download/v${FABIO_VERSION}/fabio-${FABIO_VERSION}-go1.10.2-linux_amd64"
 
   local nm_url_fabio="url_fabio_$(uname -s)"
   local fnm_fabio="$(basename "${!nm_url_fabio}")"
